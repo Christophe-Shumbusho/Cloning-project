@@ -323,47 +323,93 @@ body{
   font-size: 13px;
   color:#6b7280;;
 }
+.promo-section {
+  background-image: url('732141-0_2-VRBO_HOSTS_LA_SAUNA_NEBELING_0101 (2).jpeg');
+  background-size: cover;
+  padding: 40px 20px;
+  color: white;
+  display: flex;
+  text-align: left;
+  border-radius: 16px;
+}
 
-.register{
-    background-color: #f8f8f8;
-    padding: 50px 20px;
-    text-align: center;
+.promo-content {
+  max-width: 400px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  color: rgba(23, 2, 2, 0.689)
+
 }
-.booking{
-    background-color: #fff;
-    padding: 50px 20px;
-    text-align: center;
+
+.promo-content h2 {
+  font-size: 2em;
+  margin-bottom: 15px;
 }
-.find-accommodation{
-    background-color: #f0f0f0;
-    padding: 50px 20px;
-    text-align: center;
+
+.promo-content p {
+  font-size: 1.1em;
+  margin-bottom: 20px;
 }
-.browser-weekend-trips{
-    background-color: #fff;
-    padding: 50px 20px;
-    text-align: center;
+
+.promo-button {
+  display: inline-block;
+  background-color: rgb(103, 103, 249);
+  color: white;
+  padding: 12px 20px;
+  text-decoration: none;
+  border-radius: 15px;
+  font-weight: bold;
 }
-.view-photos{
-    background-color: black;
+.site-footer {
+  background-color: #f2f2f2;
+  padding: 40px 20px;
+  font-size: 0.95em;
+  color: #333;
 }
-.perfect-beach{
-    background-color: #f8f8f8;
-    padding: 50px 20px;
-    text-align: center;
+
+.footer-columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 30px;
 }
-.private-accommodation{
-    background-color: #fff;
-    padding: 50px 20px;
-    text-align: center;
+
+.footer-column {
+  flex: 1;
+  min-width: 220px;
 }
-.advertise-accommodation{
-    background-color: #f0f0f0;
-    padding: 50px 20px;
-    text-align: center;
+
+.footer-column h4 {
+  font-size: 1.1em;
+  margin-bottom: 15px;
+  color: #000000;
 }
-.travel-destinations{
-    background-color: #fff;
-    padding: 50px 20px;
-    text-align: center;
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
 }
+
+.footer-column li {
+  margin-bottom: 10px;
+}
+
+.footer-column a {
+  text-decoration: none;
+  color: #2f05af;
+}
+
+.footer-bottom {
+  text-align: center;
+  font-size: 0.85em;
+  color: #262626;
+}
+.text-content{
+    min-width: 220px;
+    padding: 10px 20px;
+}
+
+
+
