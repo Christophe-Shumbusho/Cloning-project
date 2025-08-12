@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    width: 100%;
+}
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px;
+    background-color:#fff;
+}
+.nav-links{
+    display:flex;
+    list-style:none;
+    gap: 30px;
+}
+.hero{
+    background-image: url('https://forever.travel-assets.com/flex/flexmanager/images/2022/08/02/2022-06-05_Vrbo_APFT2_Barcelona_Therin_House_2_4605_2.png?impolicy=fcrop&w=1920&h=580&q=medium');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.main-section{
+    padding: 20px;
+    width: 100%;
+}
+.register{
+    background-color: #f8f8f8;
+    padding: 50px 20px;
+    text-align: center;
+}
+.booking{
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+.find-accommodation{
+    background-color: #f0f0f0;
+    padding: 50px 20px;
+    text-align: center;
+}
+.browser-weekend-trips{
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+.view-photos{
+    background-color: black;
+}
+.perfect-beach{
+    background-color: #f8f8f8;
+    padding: 50px 20px;
+    text-align: center;
+}
+.private-accommodation{
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+.advertise-accommodation{
+    background-color: #f0f0f0;
+    padding: 50px 20px;
+    text-align: center;
+}
+.travel-destinations{
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
